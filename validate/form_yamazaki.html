@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="ja">
+        <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="form_yamazaki.css">
+        </head>
+        <body>
+            <article class="input_form">
+                <h1>入力欄(全項目入力必須)</h1>
+                <form action="" class="h-adr" autocomplete="off">
+                    <span class="p-country-name" style="display:none;">Japan</span>
+                    <!--名前入力欄-->
+                    <label for="name">名前</label><br>
+                    <input type="text"class="input name" id="name" placeholder="例):山田 太郎"><br>
+                    <p id="name_error" class="name error msg"></p>
+                    <!--電話番号入力欄-->
+                    <label for="tel">電話番号</label><br>
+                    <input type="tel" class="input tel" id="tel" placeholder="例):090111222 9-11桁まで" ><br>
+                    <p id="tel_error" class="tel error msg"></p>
+                    <!--郵便番号入力欄-->
+                    <label for="post_num">郵便番号</label><br>
+                    <input type="text" class="input post_num p-postal-code" id="post_num" size="8" maxlength="8" placeholder="例) 0001111"><br>
+                    <p id="post_num_error" class="post_num error msg"></p>
+                    <!--都道府県入力欄-->
+                    <label for="region">都道府県</label><br>
+                    <input type="text" class="input region p-region" id="region" placeholder="例) ○○県"/><br>
+                    <p id="region_error" class="region error msg"></p>
+                    <!--市町村く入力欄-->
+                    <label for="locality">市区町村</label><br>
+                    <input type="text" class="input locality p-locality" id="locality" placeholder="例) ○○市"/><br>
+                    <p id="locality_error" class="locality error msg"></p>
+                    <!--町域入力欄-->
+                    <label for="street_address">町域</label><br>
+                    <input type="text" class="input street_address p-street-address p-extended-address" id="street_address" placeholder="例) ○○ 1-1-1" 00/><br>
+                    <p id="street_address_error" class="street_address error msg"></p>
+                    <!--メールアドレス入力欄-->
+                    <label for="email">メールアドレス</label><br>
+                    <input type="email" class="input email" id="email" placeholder="例) email@mail.com"><br>
+                    <p id="email_error" class="email error msg"></p>
+                    <!--件名入力欄-->
+                    <label for="title">件名(10字以内)</label><br>
+                    <input type="text" class="input text" id="title" placeholder="例) ○○について" ><br>
+                    <p id="title_error"class="title error msg"></p>
+                    <!--内容内容入力欄-->
+                    <label for="content">内容(1000字以内)</label><br>
+                    <textarea name="" class="input content" id="content" cols="100" rows="12" placeholder="内容を入力してください"></textarea><br>
+                    <p id="content_error" class="content error msg"></p>
+                    <!--認証コード入力欄-->
+                    <label for="code">認証コード(条件:半角英子文字大文字数字をそれぞれ1種類以上8文字以上15文字以内)</label><br>
+                    <input type="code" class="input code" id="code" placeholder="例):Abcdefg0123"><br>
+                    <p id="code_error" class="code error msg"></p>
+                    <!--送信ボタン-->
+                    <input type="submit" id="form_submit">
+                </form>
+            </article>
+        </body>
+        <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+        <script src="validate_yamazaki.js"></script>
+    </html>

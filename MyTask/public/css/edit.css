@@ -1,0 +1,39 @@
+article {
+    width: 700px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: khaki;
+    padding: 10px;
+}
+main {
+    list-style: none; /*liタグの点消し*/
+    box-sizing: border-box;
+    border-bottom: 1px solid #333;
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+}
+
+
+button {
+    width: 70px;
+    height: 35px;
+    padding: 3px 5px;
+    display: block;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background: #75d1dc;
+    cursor: pointer;
+    margin-left: 5px;
+}

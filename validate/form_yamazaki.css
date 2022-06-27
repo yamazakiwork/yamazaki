@@ -1,0 +1,10 @@
+.error {
+    color: red
+}
+
+.input_form {
+    width: 700px;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 30px;
+}

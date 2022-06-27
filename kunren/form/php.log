@@ -1,0 +1,41 @@
+[22-Mar-2022 12:28:02 Asia/Tokyo] PHP Warning:  error_log() expects parameter 1 to be string, object given in C:\xampp7\htdocs\kunren\form\create.php on line 17
+[22-Mar-2022 12:35:05 Asia/Tokyo] PDOStatement Object
+(
+    [queryString] => INSERT INTO form(name, tel, email, title, content) VALUES(:name, :tel, :email, :title, :content)
+)
+
+[22-Mar-2022 12:40:34 Asia/Tokyo] aaa
+[22-Mar-2022 12:40:34 Asia/Tokyo] 
+[22-Mar-2022 12:40:34 Asia/Tokyo] higeoyaji.726@gmail.com
+[22-Mar-2022 12:40:34 Asia/Tokyo] 
+[22-Mar-2022 12:40:34 Asia/Tokyo] 
+[22-Mar-2022 15:20:18 Asia/Tokyo] PDOStatement Object
+(
+    [queryString] => INSERT INTO form(name, tel, email, title, content) VALUES(:name, :tel, :email, :title, :content)
+)
+
+[24-Mar-2022 12:42:43 Asia/Tokyo] PDOStatement Object
+(
+    [queryString] => INSERT INTO form(name, tel, email, title, content) VALUES(:name, :tel, :email, :title, :content)
+)
+
+[24-Mar-2022 12:43:37 Asia/Tokyo] PDOStatement Object
+(
+    [queryString] => INSERT INTO form(name, tel, email, title, content) VALUES(:name, :tel, :email, :title, :content)
+)
+
+[29-Mar-2022 03:29:44 Europe/Berlin] PDOStatement Object
+(
+    [queryString] => INSERT INTO form(name, tel, email, title, content) VALUES(:name, :tel, :email, :title, :content)
+)
+
+[29-Mar-2022 03:35:17 Europe/Berlin] PDOStatement Object
+(
+    [queryString] => INSERT INTO form(name, tel, email, title, content) VALUES(:name, :tel, :email, :title, :content)
+)
+
+[29-Mar-2022 04:48:01 Europe/Berlin] PDOStatement Object
+(
+    [queryString] => INSERT INTO form(name, tel, email, title, content) VALUES(:name, :tel, :email, :title, :content)
+)
+

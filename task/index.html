@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MyTasks</title>
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="wrap" class="wrap">
+
+    <div class="task">
+      <!-- タスク作成エリア -->
+      <div class="task__new">
+        <h2>新しいタスクを作成</h2>
+        <form action="" method="POST">
+          <input type="text" name="task" maxlength="30" placeholder="タスクを入力してください">
+          <input type="submit" value="追加">
+        </form>
+      </div>
+
+      <!-- タスク一覧表示エリア -->
+      <div class="task__area">
+        <h2>わたしのタスク一覧</h2>
+        <ul class="task__area-list">
+          <li>
+            <p>アイウエオ</p>
+            <button class="delete_btn" data-id="1">完了</button>
+          </li>
+          <li>
+            <p>カキクケコ</p>
+            <button class="delete_btn" data-id="2">完了</button>
+          </li>
+          <li>
+            <p>サシスセソ</p>
+            <button class="delete_btn" data-id="3">完了</button>
+          </li>
+          <li>
+            <p>タチツテト</p>
+            <button class="delete_btn" data-id="4">完了</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

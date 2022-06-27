@@ -1,0 +1,49 @@
+input{
+    display: block;
+}
+
+.wrapper{
+    background-size: cover;
+    background-image: url(images/genshinback.png);
+    background-repeat: no-repeat;
+    font-size: large;
+    font-weight: 600;
+}
+
+.wrapper .backopacity{
+    height: 100%;
+    background: rgba(255,255,255,0.6);
+}
+
+.wrapper .container{
+    display: block;
+    width: 500px;
+    margin: 0px 50px;
+
+}
+.wrapper .container p{
+    color: gold;
+    -webkit-text-stroke: 1px black;
+}
+
+
+.heading{
+    text-align: center;
+    color: blue;
+}
+
+.form{
+    margin: 0 auto;
+    background-color: antiquewhite;
+    width: 500px;
+    padding: 20px;
+}
+
+.title{
+    margin-top: 30px;
+}
+
+.submit{
+    margin-top: 20px;
+}
+

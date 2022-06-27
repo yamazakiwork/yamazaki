@@ -1,0 +1,14 @@
+html{
+    background-color: gray;
+}
+.container{
+    width: 350px;
+    height: 50px;
+}
+.box {
+    float: right;
+}
+
+#view{
+    float: left;
+}
